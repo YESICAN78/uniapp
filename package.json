@@ -1,0 +1,25 @@
+{
+  "name": "MyApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "alipay-sdk": "^3.1.4",
+    "axios": "^0.19.2",
+    "install": "^0.13.0",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "moment": "^2.27.0",
+    "qs": "^6.9.4",
+    "vant": "^2.9.1",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

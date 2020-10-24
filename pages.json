@@ -1,0 +1,202 @@
+{
+	"pages": [{
+			"path": "pages/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Home/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Pay/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/Pay/successpay",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/Pay/errorpay",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "手机快速注册"
+			}
+		},
+		{
+			"path": "pages/Login/index",
+			"style": {
+				"navigationBarTitleText": "手机快捷登录"
+			}
+		},
+		{
+			"path": "pages/MyFbu/index",
+			"style": {
+				"navigationBarTitleText": "我的发布商品"
+			}
+		},
+		{
+			"path": "pages/Address/index",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/Address/AddressList",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Setinfo/index",
+			"style": {
+				"navigationBarTitleText": "我的设置"
+			}
+		},
+		{
+			"path": "pages/Setinfo/UserSetinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/FL/index",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#F95978",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/SecondHandmarket/index",
+			"style": {
+				"navigationBarTitleText": "二手市场",
+				"navigationBarBackgroundColor": "#F95978",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/SecondHandmarket/indexitem",
+			"style": {
+				"navigationBarTitleText": "二手市场详情页",
+				"navigationBarBackgroundColor": "#F95978"
+			}
+		},
+		{
+			"path": "pages/Add/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/Cart/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Goods_detail/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/My/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#00aa00"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/goods_list/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/customer/index",
+			"style": {
+				"navigationBarTitleText": "客服服务"
+			}
+		},
+		{
+			"path": "pages/SerachMain/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/problem/index",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}
+
+	],
+	"tabBar": {
+		"selectedColor": "#D81E06",
+		"iconWidth": "28px",
+		"spacing": "5px",
+		"list": [{
+				"pagePath": "pages/Home/index",
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/select_home.png"
+			},
+			{
+				"pagePath": "pages/FL/index",
+				"text": "分类",
+				"iconPath": "static/icon/classify.png",
+				"selectedIconPath": "static/icon/select_classify.png"
+			},
+
+			{
+				"pagePath": "pages/Cart/index",
+				"text": "购物车",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/select_cart.png"
+			},
+			{
+				"pagePath": "pages/My/index",
+				"text": "我的",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/select_my.png"
+			}
+		],
+		"midButton": {
+			"width": "75px",
+			"height": "75px",
+			"text": "发布",
+			"iconPath": "static/icon/addshop.png",
+			"iconWidth": "53px"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
